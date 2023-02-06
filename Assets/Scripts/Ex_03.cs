@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Ex_01 : MonoBehaviour
+public class Ex_03 : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int countDown;
+
     void Start()
     {
-        for (int i = 100; i > 1; i -= 2)
+      for (int i = countDown; i > 0; i--)
         {
             Debug.Log(i);
         }
     }
 
-   
+    
 }
